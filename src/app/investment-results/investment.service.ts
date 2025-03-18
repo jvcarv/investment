@@ -5,8 +5,8 @@ import { InvestmentModel } from "./investment.model";
 export class InvestmentService{
   initialInvestment: number = 0;
   annualInvestment: number = 0;
-  expectedReturn: number = 0;
-  duration: number = 0;
+  expectedReturn: number = 5;
+  duration: number = 10;
 
   allInvestments:Array<InvestmentModel> = [];
 

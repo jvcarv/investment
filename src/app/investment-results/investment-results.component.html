@@ -10,8 +10,8 @@
     @for(investment of investmentService.allInvestments;track investment.year){
         <tr>
             <td>{{investment.year}}</td>
-            <td>{{investment.interest | currency}}</td>
             <td>{{investment.valueEndOfYear | currency}}</td>
+            <td>{{investment.interest| currency}}</td>
             <td>{{investment.totalInterest | currency}}</td>
             <td>{{investment.totalAmountInvested | currency}}</td>
         </tr>

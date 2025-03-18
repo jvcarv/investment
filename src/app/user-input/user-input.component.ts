@@ -22,6 +22,7 @@ export class UserInputComponent {
       this.investmentService.expectedReturn = this.expectedReturn;
       this.investmentService.duration = this.duration;
 
+      this.investmentService.allInvestments = [];
       this.investmentService.calculateInvestmentResults();
 
       this.investmentService.calculate = true;

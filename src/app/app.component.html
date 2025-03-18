@@ -1,7 +1,7 @@
 <app-header/>
 <main>
-  <app-user-input (calculate)="onCalculate()"/>
-  @if(calculate){
+  <app-user-input/>
+  @if(investmentService.calculate){
     <app-investment-results/>
   }
 </main>
